@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.indieappsbr.lojavirtual">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".IpActivity_"
+            android:label="Login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NovoCadastroActivity_"
+            android:label="Novo Cadastro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrincipalActivity_"
+            android:label="Principal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MinhasComprasActivity_"
+            android:label="Minhas Compras"
+            android:screenOrientation="portrait" />
+        <activity android:name=".PerfilActivity_" />
+        <activity android:name=".LoginActivity_"></activity>
+    </application>
+
+</manifest>

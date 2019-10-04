@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lp1.lojavirtualroupas.PrincipalActivity" >
+
+    <item
+        android:id="@+id/menu_atualizar"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Atualizar"/>
+    <item
+        android:id="@+id/menu_perfil"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Meu Perfil"/>
+    <item
+        android:id="@+id/menu_minhasCompras"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Minhas Compras"/>
+    <item
+        android:id="@+id/menu_maisVendidos"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Mais Vendidos"/>
+    <item
+        android:id="@+id/menu_maisBaratos"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Mais Baratos"/>
+    
+    <item
+        android:id="@+id/menu_sair"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Sair"/>
+
+</menu>
